@@ -29,10 +29,6 @@ def enrich_company_profile(company: Dict[str, Any]) -> Dict[str, Any]:
         "timestamp": datetime.now(timezone.utc).isoformat()
     }
 
-# ========================
-# 🔧 Wrap as LangChain Tools
-# ========================
-
 def _news_tool_fn(company_name: str) -> str:
     news = scrape_recent_news(company_name)
     return "\n".join(news) if news else "No recent news found."

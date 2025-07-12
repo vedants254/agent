@@ -5,6 +5,8 @@ from langchain.tools.base import BaseTool
 from langchain.tools.ddg_search.tool import DuckDuckGoSearchRun
 
 APOLLO_API_KEY = os.getenv('APOLLO_API_KEY')
+
+
 nlp = spacy.load("en_core_web_sm")
 
 class ApolloCompanySearchTool(BaseTool):
