@@ -1,0 +1,16 @@
+streamlit 
+langchain
+langchain-community
+langchain-google-community 
+requests
+beautifulsoup4 
+duckduckgo-search 
+python-dotenv 
+ollama
+spacy
+datetime
+langchain 
+google-api-python-client
+google-auth-oauthlib
+google-auth
+langchain_google_community 
