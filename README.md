@@ -34,7 +34,7 @@ This agent leverages LangChain, LLaMA 3.1 via Ollama, and multiple specialized t
 
 While the current company discovery uses Apollo API and DuckDuckGo, Google Places API would offer significantly higher precision and data relevance, especially for local or niche business discovery.
 
-However, since Google Places API is a paid service, it hasn’t been used in this build. You are encouraged to replace or augment Apollo with Google Places for production-grade use.
+However, since Google Places API is a paid service, I wasn't able to completely explore its working. Google Places API would give much better results from small to large businesses. 
 
 Also, Instead of local run using Ollama, to make inference faster, Groq API coudl be used with a better,faster model.
 
